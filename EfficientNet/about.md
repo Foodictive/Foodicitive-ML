@@ -8,7 +8,7 @@ EfficientNet Model is a deep learning model for classifying Indonesian food. Thi
 - The total image data is … . Means that each category has the amount of data as much as …
 - Dataset link here
 
-### 2. Preprocessing
+### 2. Data Preprocessing
 - After the data is collected, the next step is data cleaning, for example deleting image data that does not represent a certain category.
 - The dataset is divided into 3 folders, namely train (80%), validation (10%), and test (10%).
 - Resize the image to ```224x224``` pixels
