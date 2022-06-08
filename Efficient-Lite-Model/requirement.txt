@@ -1,0 +1,11 @@
+libportaudio==19.6.0-1
+tensorflow==2.4.0
+sounddevice==0.4.4
+tf-lite-model-maker==0.4.0
+seedir==0.3.0
+
+you can instal in terminal using this
+sudo apt-get install libportaudio2
+pip install sounddevice
+pip install tflite-model-maker
+pip install seedir
