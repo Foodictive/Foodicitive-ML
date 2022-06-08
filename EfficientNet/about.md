@@ -25,7 +25,7 @@ EfficientNet Model is a deep learning model for classifying Indonesian food. Thi
   
 ### 3. Training
 - Training using transfer learning method. Transfer learning is the reuse of knowledge from previously trained models to perform new tasks. The transfer learning model (pre-trained model) used is image feature extraction with EfficientNetB0 architecture that has been trained on ImageNet.
-- The choice of this method because it has a relatively short training time but has a fairly high accuracy.
+- The choice of this architecture because it has a relatively short training time but has a fairly high accuracy.
 - Perform freeze layer technique on all layers on EfficientNetB0. Then the transfer learning model is added with several layers to make the model accuracy more better
    * Added ```Flatten()``` layer
    * Added ```Dense(units=64, activation='relu')``` layer
