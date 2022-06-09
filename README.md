@@ -3,6 +3,10 @@
 ## Introduction
 This repo contain's 2 model Foodictive Machine Learning
 
+## Our Cloud Computing Team
+- Azril Bagas Pratama ( M2200G1875 )
+- Ahmad Bustanul Aziz ( M7200G1866 )
+
 ## How To Use
 ### Run in Google Colab
 ...
@@ -23,9 +27,9 @@ The model in this repository is designed to run on android applications. The fol
    }
    ```
 4. Akses nilai list pertama dengan outputs[0] untuk mendapatkan kategori hasil prediksi dengan nilai akurasi terbesar. Masukkan outputs[0] kedalam variable probability
-```
-val probability = outputs[0]
-```
+   ```
+  val probability = outputs[0]
+  ```
    
 Here is the full code
 ```
