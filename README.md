@@ -1,7 +1,7 @@
 # Foodictive - Machine Learning Notebook
-This repo contain's 2 model Foodictive Machine Learning 
-
+ 
 ## Introduction
+This repo contain's 2 model Foodictive Machine Learning
 
 ## How To Use
 ### Run in Google Colab
@@ -23,11 +23,13 @@ The model in this repository is designed to run on android applications. The fol
    }
    ```
 4. Akses nilai list pertama dengan outputs[0] untuk mendapatkan kategori hasil prediksi dengan nilai akurasi terbesar. Masukkan outputs[0] kedalam variable probability
-```val probability = outputs[0]```
+```
+val probability = outputs[0]
+```
    
 Here is the full code
 ```
-val model = ModelFp16.newInstance(this)
+val model = YourModel.newInstance(this)
 val image = TensorImage.fromBitmap(bitmap)
 
 val outputs = model.process(image).probabilityAsCategoryList.apply {
