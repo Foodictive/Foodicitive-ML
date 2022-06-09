@@ -28,8 +28,8 @@ The model in this repository is designed to run on android applications. The fol
    ```
 4. Akses nilai list pertama dengan outputs[0] untuk mendapatkan kategori hasil prediksi dengan nilai akurasi terbesar. Masukkan outputs[0] kedalam variable probability
    ```
-  val probability = outputs[0]
-  ```
+   val probability = outputs[0]
+   ```
    
 Here is the full code
 ```
