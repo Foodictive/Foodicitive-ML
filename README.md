@@ -15,7 +15,7 @@ This repo contain's 2 model Foodictive Machine Learning. The models contain 10 c
    ```
 2. open terminal and move to this directory
    ```
-   cd Image-Classifier-Web-App
+   cd Foodictive-ML
    ```
 3. Use anaconda or create virtual environment
    ```
