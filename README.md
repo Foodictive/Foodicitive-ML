@@ -36,21 +36,21 @@ This repo contain's 2 model Foodictive Machine Learning. The models contain 10 c
    ```
 ### Applied .tflite to Android
 The model in this repository is designed to run on android applications. The following is a documentation guide for using the .tflite model in android studio (We use kotlin)
-1. Lakukan instansiasi model kedalam variable model
+1. Do instance model in model variable
    ```
    val model = YourModel.newInstance(this)
    ```
-2. Mengambil gambar yang sudah dalam bentuk bitmap, kemudian dimasukkan ke variable image.
+2. Take image in bitmap then insert to image variable
    ```
    val image = TensorImage.fromBitmap(bitmap)
    ```
-3. Melakukan prediksi terhadap image, Nilai akurasi diurutkan dari terbesar dalam bentuk list. Hasil berupa list dimasukkan kedalam variable outputs
+3. Do prediction on image, use list for descending then give list to outputs variable.
    ```
    val outputs = model.process(image).probabilityAsCategoryList.apply {
       sortByDescending { it.score }
    }
    ```
-4. Akses nilai list pertama dengan outputs[0] untuk mendapatkan kategori hasil prediksi dengan nilai akurasi terbesar. Masukkan outputs[0] kedalam variable probability
+4. Access outputs[0] for biggest accuracy then give to probability variable
    ```
    val probability = outputs[0]
    ```
@@ -76,3 +76,6 @@ We are open and grateful to anyone who wants to contribute to the development of
 6. Wait until we review your change.
 
 ## References
+- VijayaKumari G., Priyanka Vutkur, Vishwanath P. Food classification using transfer learning technique. 2022. [Science Direct] (https://www.sciencedirect.com/science/article/pii/S2666285X22000334)
+- Mingxing Tan, Quoc V. Le. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. 2020. [Arvix] (https://arxiv.org/abs/1905.11946)
+- Chairi Kiourt, George Pavlidis, Stella Markantonatou. Deep learning approaches in food recognition. 2020. [Arvix] (https://arxiv.org/abs/2004.03357)
