@@ -20,7 +20,11 @@ EfficientNet-Lite Model is a deep learning model for classifying Indonesian food
   ```
   
 ### 3. Training
-- Add 
+- Add spesification for model with efficientnet_lite0
+- Set batch size 32
+- Set taining with 15 epoch
+- Set Learning rate 0.001
+- Set drop rate 0,7
 
 ### 4. Training Results
 - Training Accuracy   : 0.9736
