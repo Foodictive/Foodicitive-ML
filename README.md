@@ -7,6 +7,10 @@ This repo contain's 2 model Foodictive Machine Learning. The models contain 10 c
 - Azril Bagas Pratama ( M2200G1875 )
 - Ahmad Bustanul Aziz ( M7200G1866 )
 
+## Dataset
+- [For Efficientnet BO](https://drive.google.com/drive/folders/1---ygLWFjTZFuUKvKTi8hSu0HWroYIX3?usp=sharing)
+- [For Efficientnet L0](https://drive.google.com/drive/folders/1tAifvyh_DJPx1smAYnAPDhlPneLOhwcC?usp=sharing)
+
 ## How To Use
 ### Deploy to localhost 
 1. Clone the repository 
@@ -76,6 +80,6 @@ We are open and grateful to anyone who wants to contribute to the development of
 6. Wait until we review your change.
 
 ## References
-- VijayaKumari G., Priyanka Vutkur, Vishwanath P. Food classification using transfer learning technique. 2022. [Science Direct] (https://www.sciencedirect.com/science/article/pii/S2666285X22000334)
-- Mingxing Tan, Quoc V. Le. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. 2020. [Arvix] (https://arxiv.org/abs/1905.11946)
-- Chairi Kiourt, George Pavlidis, Stella Markantonatou. Deep learning approaches in food recognition. 2020. [Arvix] (https://arxiv.org/abs/2004.03357)
+- VijayaKumari G., Priyanka Vutkur, Vishwanath P. Food classification using transfer learning technique. 2022. [Science Direct](https://www.sciencedirect.com/science/article/pii/S2666285X22000334)
+- Mingxing Tan, Quoc V. Le. EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks. 2020. [Arvix](https://arxiv.org/abs/1905.11946)
+- Chairi Kiourt, George Pavlidis, Stella Markantonatou. Deep learning approaches in food recognition. 2020. [Arvix](https://arxiv.org/abs/2004.03357)
