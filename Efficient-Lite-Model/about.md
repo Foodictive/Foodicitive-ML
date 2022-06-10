@@ -1,6 +1,6 @@
 # Efficient-Lite Model – Machine Learning Notebook
-
 EfficientNet-Lite Model is a deep learning model for classifying Indonesian food. This model is made using transfer learning method with EfficientNet-Lite0 architecture. The following is the methodology for making the EfficientNet Model.
+
 ### 1. Data Gathering
 - The method of collecting datasets uses the data scraping method.
 - The dataset is a food image data.

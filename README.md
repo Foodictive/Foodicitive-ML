@@ -3,7 +3,7 @@
 ## Introduction
 This repo contain's 2 model Foodictive Machine Learning. The models contain 10 classes of food.
 
-## Our Machine Learning Computing Team
+## Our Machine Learning Team
 - Azril Bagas Pratama ( M2200G1875 )
 - Ahmad Bustanul Aziz ( M7200G1866 )
 
@@ -40,7 +40,7 @@ This repo contain's 2 model Foodictive Machine Learning. The models contain 10 c
    ```
 ### Applied .tflite to Android
 The model in this repository is designed to run on android applications. The following is a documentation guide for using the .tflite model in android studio (We use kotlin)
-1. Do instance model in model variable
+1. Do instance your model in model variable
    ```
    val model = YourModel.newInstance(this)
    ```
@@ -54,7 +54,7 @@ The model in this repository is designed to run on android applications. The fol
       sortByDescending { it.score }
    }
    ```
-4. Access outputs[0] for biggest accuracy then give to probability variable
+4. Access outputs[0] for class that have biggest accuracy then give to probability variable
    ```
    val probability = outputs[0]
    ```
