@@ -16,14 +16,14 @@ app.config['UPLOAD'] = cfg.OUTPUT
 
 
 @app.route('/', methods=['GET', 'POST'])
-def upload_file():
+def upload_image():
     if request.method == 'POST':
-        # Checking if the post request has the file part
+        # Checking if the post request has file part
         if 'file' not in request.files:
             print('No file part')
             return redirect(request.url)
         file = request.files['file']
-        # Check if no file was submitted to the HTML form
+        # Checking if no file was submitted to HTML form
         if file.filename == '':
             print('No selected file')
             return redirect(request.url)
