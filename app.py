@@ -31,10 +31,10 @@ def upload_image():
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD'], filename))
             output = pdt.make_prediction(filename)
-            path_to_image = url_for('static', filename=filename)
+            path_img = url_for('static', filename=filename)
             result = {
                 'output': output,
-                'path_to_image': path_to_image,
+                'path_to_image': path_img,
                 'size': cfg.SIZE
             }
             return render_template('show.html', result=result)
