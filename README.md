@@ -1,15 +1,39 @@
 # Foodictive - Machine Learning Notebook
  
 ## Introduction
-This repo contain's 2 model Foodictive Machine Learning
+This repo contain's 2 model Foodictive Machine Learning. The models contain 10 classes of food.
 
-## Our Cloud Computing Team
+## Our Machine Learning Computing Team
 - Azril Bagas Pratama ( M2200G1875 )
 - Ahmad Bustanul Aziz ( M7200G1866 )
 
 ## How To Use
-### Run in Google Colab
-...
+### Deploy to localhost 
+1. Clone the repository 
+   ```
+   git clone https://github.com/avocadojj/Foodicitive-ML.git
+   ```
+2. open terminal and move to this directory
+   ```
+   cd Image-Classifier-Web-App
+   ```
+3. Use anaconda or create virtual environment
+   ```
+   python -m venv venv
+   ```
+4. For windows, Activate virtual environment
+   ```
+   venv\Scripts\activate (windows)
+   source venv/bin/activate (Mac / Linux) 
+   ```
+5. Install the requirements
+   ```
+   python -m pip install -r requirements.txt
+   ```
+6. Run the app
+   ```
+   python app.py
+   ```
 ### Applied .tflite to Android
 The model in this repository is designed to run on android applications. The following is a documentation guide for using the .tflite model in android studio (We use kotlin)
 1. Lakukan instansiasi model kedalam variable model
